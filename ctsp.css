@@ -1,0 +1,302 @@
+.containerchitietsp {
+   margin-top: 10px;
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.breadcrumb {
+    
+    max-width: 1200px;
+	margin: 0 auto;
+    display: block;
+    overflow: hidden;
+    margin: auto;
+    background: #fff;
+    line-height: 32px;
+    margin-bottom: 10px;
+}
+.breadcrumb li {
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    padding-right: 0;
+    line-height: unset;
+}
+
+.breadcrumb li a {
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 14px;
+    color: #288ad6;
+    padding: 0 10px 0 0;
+}
+.breadcrumb span {
+    display: inline-block;
+    font-size: 20px;
+    color: #999;
+    padding: 2px 5px 0 0;
+    line-height: 1;
+}
+
+.tensp h1{
+    
+padding-left: 21%;
+font-size: 25px;
+}
+.tensp{
+    display: flex;
+   
+}
+.tensp li{
+margin: 3px;
+padding: 2px ;
+color:rgb(231, 110, 12);
+}
+.product-image {
+	flex: 1;
+}
+.product-image img {
+	width: 100%;
+	height: auto;
+}
+.product-info {
+	flex: 1;
+	/* margin-left: 30px; */
+}
+.gia {
+   font-size: 25px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+/* ...... */
+.area_promo {
+    border: 1px solid #ddd;
+    display: block;
+    overflow: hidden;
+    border-radius: 4px;
+    position: relative;
+    margin: 5px 10px 12px;
+    padding-bottom: 10px;
+}
+
+.area_promo strong {
+    display: block;
+    overflow: hidden;
+    font-size: 15px;
+    padding: 15px 15px 10px 15px;
+    text-transform: uppercase;
+    /*Viết thành chữ hoa*/
+}
+
+.area_promo .promo {
+    display: block;
+    overflow: hidden;
+    font-size: 14px;
+    padding: 0 15px 5px 40px;
+}
+
+.promo img {
+    width: 14px;
+    height: 14px;
+    float: left;
+    margin: 2px 0 0 -20px;
+}
+
+.policy {
+    display: block;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding-top: 10px;
+    margin: 0 10px 10px 10px;
+    padding-bottom: 5px;
+}
+
+.policy div {
+    display: block;
+    overflow: hidden;
+    padding: 5px 0 5px 5px;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0 10px;
+    border-bottom: 1px solid #f0f0f0;
+    position: relative;
+
+}
+
+.policy div img {
+    background: #fff;
+    display: block;
+    width: 20px;
+    height: 17px;
+    float: left;
+    margin: 3px;
+}
+
+.policy div p {
+    margin: 0 0 0 28px;
+    color: #288ad6;
+}
+
+.policy div.last {
+    border-bottom: 0px;
+}
+.area_order {
+    display: block;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.area_order .buy_now {
+    display: block;
+    overflow: hidden;
+    padding: 7px 0;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: normal;
+    color: #fff;
+    text-align: center;
+    background: -webkit-linear-gradient(top, #f59000, #fd6e1d);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.area_order .buy_now:hover {
+    background: -webkit-linear-gradient(top, #fd6e1d, #f59000);
+}
+
+.area_order .buy_now p {
+    display: block;
+    font-size: 13px;
+    margin: 3px 0;
+}
+/* thong tin san pham ..........*/
+.thongtinsp p{
+    width: 50%;
+    margin: 0 auto;
+font-size: 1.3em;
+}
+
+.thongtinsp strong{
+    font-size: 1.5em;
+}
+
+/* ..........phan content..... */
+.containersp{
+  
+    width: 50%;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 250vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+ 
+
+
+}
+
+.products{
+margin-bottom: 10%;
+    width: 100%;
+    align-self: center;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px; 
+}
+.product{
+    position: relative;
+    background-color: var(--sectionBack);
+    width: 250px;
+    height: 60%;
+    box-shadow: 0 5px 20px rgba(67, 49, 49, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px 25px 50px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.product:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+.image{
+    width:100%;
+    height: 60%;
+    display: grid;
+    place-content: center;
+}
+.image img{
+    width: 170px;
+}
+.namePrice{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.namePrice h3{
+    font-size: 1.2em;
+    text-transform: capitalize;
+    color: var(--textColor);
+}
+.namePrice span{
+    font-size: 1em;
+    color: red;
+}
+.product p{
+    font-size: 13px;
+    line-height: 20px;
+    color: #5134d3;
+}
+.stars svg{
+    font-size: 1.3em;
+    color: var(--starColor);
+}
+.stars{
+    font-size: 10px;
+    color: yellow;
+}
+.bay{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+.bay button{
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(227, 122, 17);
+    color: rgb(251, 245, 245);
+    font-size: 15px;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: .5s;
+}
+.bay button:hover{
+    transform: scale(1.1);
+}
+
+ 
